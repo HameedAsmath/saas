@@ -125,8 +125,9 @@ export default function Footer() {
               <li className="flex gap-2">
                 <Phone size={16} className="flex-shrink-0 mt-0.5" />
                 <div>
-                  <div>+91 40 23144500</div>
-                  <div>+91 40 67173333</div>
+                  <div>+91 6383526853</div>
+                  <div>+91 8056604413</div>
+                  <div>+91 9952479943</div>
                 </div>
               </li>
               <li className="flex gap-2">

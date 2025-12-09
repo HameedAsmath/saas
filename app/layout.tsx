@@ -8,9 +8,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Corgox | Premium Byadgi & Teja Chillies",
+  title: "Cargox | Premium Byadgi & Teja Chillies",
   description:
-    "Premium Indian spices from Corgox - Byadgi and Teja chillies with generations of farming heritage. Fast global delivery, strict quality standards.",
+    "Premium Indian spices from Cargox - Byadgi and Teja chillies with generations of farming heritage. Fast global delivery, strict quality standards.",
   generator: "v0.app",
   keywords: "chillies, spices, Byadgi, Teja, Indian spices, exports, Raichur",
   icons: {

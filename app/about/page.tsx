@@ -1,9 +1,9 @@
-"use client"
-import Link from "next/link"
-import Header from "@/components/Header"
-import Footer from "@/components/Footer"
-import SpiceBullet from "@/components/SpiceBullet"
-import { CheckCircle, Award, Users, Globe } from "lucide-react"
+"use client";
+import Link from "next/link";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import SpiceBullet from "@/components/SpiceBullet";
+import { CheckCircle, Award, Users, Globe } from "lucide-react";
 
 export default function About() {
   const strengths = [
@@ -13,7 +13,7 @@ export default function About() {
     "Fast global delivery with logistics expertise",
     "Customer-focused approach to every inquiry",
     "Export-ready drying, cleaning, grading, and packaging",
-  ]
+  ];
 
   const coreValues = [
     {
@@ -36,7 +36,7 @@ export default function About() {
       title: "Global Vision",
       description: "Connecting the best of Indian spices to the world",
     },
-  ]
+  ];
 
   return (
     <>
@@ -45,9 +45,12 @@ export default function About() {
       {/* Hero Section */}
       <div className="bg-gradient-to-b from-accent/30 to-background pt-20 pb-12 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-secondary mb-6 text-balance">Our Story</h1>
+          <h1 className="text-5xl md:text-6xl font-bold text-secondary mb-6 text-balance">
+            Our Story
+          </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Built on generations of farming heritage and a commitment to bringing the finest Indian spices to the world
+            Built on generations of farming heritage and a commitment to
+            bringing the finest Indian spices to the world
           </p>
         </div>
       </div>
@@ -66,7 +69,9 @@ export default function About() {
 
             <div className="animate-slide-in-right">
               <div className="inline-block px-4 py-1 bg-primary/10 rounded-full mb-4">
-                <span className="text-primary font-semibold text-sm">Founded 2025</span>
+                <span className="text-primary font-semibold text-sm">
+                  Founded 2025
+                </span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-6 text-balance">
                 Generations of Expertise
@@ -74,23 +79,30 @@ export default function About() {
 
               <div className="space-y-4 mb-8">
                 <p className="text-lg text-foreground leading-relaxed">
-                  Corgox was founded by families with generations of chilli-farming heritage in the fertile fields of
-                  Raichur, Karnataka—a region renowned for producing some of India's finest chillies.
+                  Cargox was founded by families with generations of
+                  chilli-farming heritage in the fertile fields of Raichur,
+                  Karnataka—a region renowned for producing some of India's
+                  finest chillies.
                 </p>
 
                 <p className="text-lg text-foreground leading-relaxed">
-                  Now based in Pondicherry for better global logistics and distribution, we blend traditional farming
-                  wisdom with modern spice-processing technology to deliver premium quality to international markets.
+                  Now based in Pondicherry for better global logistics and
+                  distribution, we blend traditional farming wisdom with modern
+                  spice-processing technology to deliver premium quality to
+                  international markets.
                 </p>
 
                 <p className="text-lg text-foreground leading-relaxed">
-                  Every batch reflects our commitment to excellence, transparency, and sustainable practices that honor
-                  the land and support our farming communities.
+                  Every batch reflects our commitment to excellence,
+                  transparency, and sustainable practices that honor the land
+                  and support our farming communities.
                 </p>
               </div>
 
               <div className="inline-block px-4 py-1 bg-primary/10 rounded-full">
-                <span className="text-primary font-semibold">"Where Tradition Meets Global Standards"</span>
+                <span className="text-primary font-semibold">
+                  "Where Tradition Meets Global Standards"
+                </span>
               </div>
             </div>
           </div>
@@ -106,7 +118,11 @@ export default function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {strengths.map((strength, idx) => (
-              <div key={idx} className="animate-fade-in-up" style={{ animationDelay: `${idx * 0.1}s` }}>
+              <div
+                key={idx}
+                className="animate-fade-in-up"
+                style={{ animationDelay: `${idx * 0.1}s` }}
+              >
                 <SpiceBullet text={strength} />
               </div>
             ))}
@@ -129,7 +145,9 @@ export default function About() {
                 style={{ animationDelay: `${idx * 0.1}s` }}
               >
                 <div className="flex justify-center mb-4">{value.icon}</div>
-                <h3 className="text-xl font-bold text-secondary mb-3">{value.title}</h3>
+                <h3 className="text-xl font-bold text-secondary mb-3">
+                  {value.title}
+                </h3>
                 <p className="text-foreground text-sm">{value.description}</p>
               </div>
             ))}
@@ -140,10 +158,13 @@ export default function About() {
       {/* Vision */}
       <section className="section-padding bg-primary text-white">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">Our Vision</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">
+            Our Vision
+          </h2>
           <p className="text-xl mb-8 text-white/90 leading-relaxed text-balance">
-            "To become the most trusted global supplier of Byadgi and Teja chillies while empowering farmers and
-            delivering sustainable quality that meets international standards."
+            "To become the most trusted global supplier of Byadgi and Teja
+            chillies while empowering farmers and delivering sustainable quality
+            that meets international standards."
           </p>
           <Link
             href="/products"
@@ -156,5 +177,5 @@ export default function About() {
 
       <Footer />
     </>
-  )
+  );
 }

@@ -104,7 +104,7 @@ export default function Home() {
                 Founded with Passion
               </h2>
               <p className="text-lg text-foreground mb-4 leading-relaxed">
-                Established in 2025, Corgox brings together generations of
+                Established in 2025, Cargox brings together generations of
                 chilli farming heritage from the fertile fields of Raichur,
                 Karnataka. Now based in Pondicherry for optimal global
                 logistics, we combine traditional farming wisdom with
@@ -130,7 +130,7 @@ export default function Home() {
       <section className="section-padding bg-background">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-12 text-center text-balance">
-            Why Choose Corgox?
+            Why Choose Cargox?
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

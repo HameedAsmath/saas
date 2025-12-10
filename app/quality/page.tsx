@@ -165,6 +165,7 @@ export default function Quality() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-8">
             {/* Certificate Image */}
+
             <div className="animate-fade-in-up">
               <img
                 src="/certificate.jpg"

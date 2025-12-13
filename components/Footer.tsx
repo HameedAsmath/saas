@@ -33,18 +33,26 @@ export default function Footer() {
               Where Tradition Meets Global Standards
             </p>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-primary transition-colors">
+              {/* <a href="#" className="hover:text-primary transition-colors">
                 <Facebook size={20} />
-              </a>
-              <a href="#" className="hover:text-primary transition-colors">
+              </a> */}
+              <a
+                href="https://www.instagram.com/cargox_india?igsh=MWk4Y21uMDZ0YXlxag=="
+                className="hover:text-primary transition-colors"
+                target="_blank"
+              >
                 <Instagram size={20} />
               </a>
-              <a href="#" className="hover:text-primary transition-colors">
+              <a
+                href="https://www.linkedin.com/in/cargox-india-008597399"
+                className="hover:text-primary transition-colors"
+                target="_blank"
+              >
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="hover:text-primary transition-colors">
+              {/* <a href="#" className="hover:text-primary transition-colors">
                 <Twitter size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
 

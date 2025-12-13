@@ -148,7 +148,7 @@ export default function Footer() {
 
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/70">
-            <p>&copy; 2025 Cargox Imports & Exports. All rights reserved.</p>
+            <p>&copy; 2025 Cargox Imports & Exports | All rights reserved</p>
           </div>
         </div>
       </div>

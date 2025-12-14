@@ -130,7 +130,7 @@ export default function Home() {
       <section className="section-padding bg-background">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-12 text-center text-balance">
-            Why Choose Cargox?
+            Why Choose CargoX?
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

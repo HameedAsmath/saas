@@ -68,11 +68,6 @@ export default function About() {
             </div>
 
             <div className="animate-slide-in-right">
-              <div className="inline-block px-4 py-1 bg-primary/10 rounded-full mb-4">
-                <span className="text-primary font-semibold text-sm">
-                  Founded 2025
-                </span>
-              </div>
               <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-6 text-balance">
                 Generations of Expertise
               </h2>

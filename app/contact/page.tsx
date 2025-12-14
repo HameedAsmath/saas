@@ -97,11 +97,8 @@ export default function Contact() {
                     </h3>
                     <div className="text-sm text-muted-foreground space-y-2">
                       <div>
-                        <p className="font-semibold text-secondary text-xs">
-                          Factory:
-                        </p>
                         <p>
-                          18, Sinna SubramaniyaPillai Street, Pondichery - 605
+                          18, Chinna SubramaniyaPillai Street, Pondichery - 605
                           001
                         </p>
                       </div>
@@ -229,11 +226,11 @@ export default function Contact() {
           </h2>
           <div className="rounded-xl overflow-hidden shadow-lg h-96">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.6678128517183!2d79.82587947458919!3d11.92819043689548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a536180be387333%3A0xa9097178f25364b7!2s18%2C%20Nainiappa%20Pillai%20St%2C%20Chinnakadai%2C%20MG%20Road%20Area%2C%20Puducherry%2C%20605001!5e0!3m2!1sen!2sin!4v1765203479643!5m2!1sen!2sin"
+              src="https://www.google.com/maps/d/embed?mid=1J-7wgVQH69h00T9eEhnEGTaaYgWuNsw&ehbc=2E312F"
               width="100%"
               height="100%"
               style={{ border: 0 }}
-              allowFullScreen={true}
+              allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />

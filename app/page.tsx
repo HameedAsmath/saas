@@ -6,6 +6,17 @@ import ParallaxHero from "@/components/ParallaxHero";
 import ProductCard from "@/components/ProductCard";
 import { ArrowRight, Leaf, Shield, Globe } from "lucide-react";
 
+const certificateLogos = [
+  "/certificate1.png",
+  "/certificate2.png",
+  "/certificate3.png",
+  "/certificate4.png",
+  "/certificate5.png",
+  "/certificate6.png",
+  "/certificate7.png",
+  "/certificate8.png",
+];
+
 export default function Home() {
   const featuredProducts = [
     {
@@ -178,6 +189,31 @@ export default function Home() {
                 customer-focused service worldwide.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-white">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-12 text-center text-balance">
+            Certifications & Compliance
+          </h2>
+
+          {/* Certificate Logos Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-12">
+            {certificateLogos.map((logo, idx) => (
+              <div
+                key={idx}
+                className="flex items-center justify-center p-6 h-40 animate-fade-in-up"
+                style={{ animationDelay: `${idx * 0.1}s` }}
+              >
+                <img
+                  src={logo}
+                  alt={`Certificate ${idx + 1}`}
+                  className="max-w-full max-h-full w-auto h-auto object-contain"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
